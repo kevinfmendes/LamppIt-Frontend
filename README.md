@@ -1,27 +1,18 @@
-# AngularFront
+# LamppIt-Frontend - Kevin Mendes
+Projeto desenvolvido como parte do processo para vaga de Desenvolvedor FullStack Jr. da LamppIt.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+## Frontend Angular
+Este projeto é parte do teste técnico para a vaga de Desenvolvedor FullStack Jr na empresa LamppIt. Ele consiste em um frontend desenvolvido em Angular para compenentização e comunicação com o backend através do consumo de endpoints restfull disponíveis na parte 1 do teste técnico.
+## Tecnologias Utilizadas
 
-## Development server
+- Node.js
+- Angular
+- Bootstrap
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Funcionalidades
+- Implementação de service para comunicação com backend Java
+- Adição de botões para comunicação com o service para edição e exclusão 
+- Criação de componentes de tela para cadastro de novos clientes
+- Criação de componentes de tela para edição de clientes já cadastrados
+- Exibição de clientes já cadastrados
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
