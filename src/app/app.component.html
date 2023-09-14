@@ -1,0 +1,15 @@
+<nav class="navbar navbar-expand-sm bg-primary">
+      <button routerLink="clientes" routerLinkActive="active" class="btn btn-primary">Listagem de Clientes</button>
+      <button routerLink="create-cliente" routerLinkActive="active" class="btn btn-primary">Cadastrar Novo Cliente</button>
+</nav>
+
+<h1 class="text-center">{{title}}</h1>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <span class="mt-5">Desenvolvido por Kevin Mendes</span>
+  </div>
+</footer>

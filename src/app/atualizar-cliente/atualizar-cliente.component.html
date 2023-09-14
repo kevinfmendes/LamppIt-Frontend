@@ -1,0 +1,40 @@
+<h2>Editar Cliente</h2>
+<form (ngSubmit)="onSubmit()">
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" id="nome"
+        [(ngModel)]="cliente.nome" name="nome">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" class="form-control" id="sobrenome"
+        [(ngModel)]="cliente.sobrenome" name="sobrenome">
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email"
+        [(ngModel)]="cliente.email" name="email">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="telefone">Telefone</label>
+        <input type="tel" class="form-control" id="telefone"
+        [(ngModel)]="cliente.telefone" name="telefone">
+      </div>
+    </div>
+  </div>
+
+  <button class="btn btn-success" type="submit">Atualizar</button>
+</form>
+
